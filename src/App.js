@@ -46,6 +46,9 @@ function App() {
           <Route exact path="/account">
             <Login />{" "}
           </Route>
+          <Route path="/myWebApp">
+            <Home />{" "}
+          </Route>
         </Switch>
         <Footer />
       </Router>
